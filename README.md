@@ -14,7 +14,7 @@ Afterwards, we'll want to set up a new environment and install [NumPy](https://n
 
 ```
 $ conda create -n killaudio
-$ conda activate my-env
+$ conda activate killaudio
 $ conda install numpy
 $ conda install scipy
 $ conda install matplotlib
