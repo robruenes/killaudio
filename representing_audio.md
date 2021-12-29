@@ -27,7 +27,7 @@ Because digital signals are functions of discrete time, and in turn only have am
 
 A digital signal, _x[n]_, with _N_ total samples, has individual samples _x[1], x[2], ..., x[N]_, and can be written:
 
-> _x = {x<sub>1</sub>, x<sub>2</sub>,..., x<sub>N</sub>}
+> _x = {x<sub>1</sub>, x<sub>2</sub>,..., x<sub>N</sub>}_
 
 This representation naturally translates to arrays.
 
