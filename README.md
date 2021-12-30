@@ -10,13 +10,29 @@ This project uses [Anaconda](https://www.anaconda.com) for dependency and enviro
 
 First, install Anaconda using the [command line installer](https://docs.anaconda.com/anaconda/install/mac-os/#using-the-command-line-install).
 
-Afterwards, we'll want to set up a new environment and install [NumPy](https://numpy.org), [SciPy](http://scipy.org), [Matplotlib](https://matplotlib.org), and [Jupyter Notebooks](https://jupyter.org/install).
+Then, create and activate a new environment. It can have any name
+you choose, but we'll call it *killaudio* in this example.
 
 ```
 $ conda create -n killaudio
 $ conda activate killaudio
+```
+
+Next, we'll install [NumPy](https://numpy.org), [SciPy](http://scipy.org), [Matplotlib](https://matplotlib.org), and [Jupyter Notebooks](https://jupyter.org/install) in this environment.
+
+```
 $ conda install numpy
 $ conda install scipy
 $ conda install matplotlib
 $ conda install jupyterlab
 ```
+
+## Conda Troubleshooting
+If at any point you need to list out the environments
+on your development machine, you can run:
+
+> $ conda info --envs
+
+And to apply a given environment, run:
+
+> $ conda activate \<envname>
