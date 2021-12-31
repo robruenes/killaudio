@@ -57,8 +57,8 @@ If you clone this repository and want to open the files in Jupyter Notebooks *in
 If at any point you need to list out the environments
 on your development machine, you can run:
 
-> $ conda info --envs
+`$ conda info --envs`
 
 And to apply a given environment, run:
 
-> $ conda activate \<envname>
+`$ conda activate <envname>`
