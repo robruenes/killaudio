@@ -14,7 +14,7 @@ The instructions below should work largely as-written on a Linux machine, but if
 
 First, install Anaconda.
 
-- If you're using a Mac, follow these [command line installer instructions](https://docs.anaconda.com/anaconda/install/mac-os/#using-the-command-line-install)
+- If you're using a Mac, follow these [command line installer instructions](https://docs.anaconda.com/anaconda/install/mac-os/#using-the-command-line-install).
 - If you're running Linux, [follow these instructions](https://docs.anaconda.com/anaconda/install/linux/).
 
 ## Create a dedicated environment
