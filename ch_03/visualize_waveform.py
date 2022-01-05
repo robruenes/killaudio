@@ -23,7 +23,7 @@ def plot_time_against_amplitude(num_samples, sample_rate, data):
 
 
 if __name__ == "__main__":
-    sample_rate, data = wavfile.read("sw20Hz.wav")
+    sample_rate, data = wavfile.read("input_wav_files/sw20Hz.wav")
     num_samples = data.shape[0]
     plot_sample_number_against_amplitude(num_samples, sample_rate, data)
     plot_time_against_amplitude(num_samples, sample_rate, data)
