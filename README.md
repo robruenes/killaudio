@@ -35,14 +35,12 @@ We need the following dependencies for the examples in this repository.
 - [SciPy](http://scipy.org)
 - [Matplotlib](https://matplotlib.org)
 - [Jupyter Notebooks](https://jupyter.org/install)
-- [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)
 
 ```
 $ conda install numpy
 $ conda install scipy
 $ conda install matplotlib
 $ conda install jupyterlab
-$ conda install pyaudio
 ```
 
 ### Note on Jupyter Notebooks and Google Colab
