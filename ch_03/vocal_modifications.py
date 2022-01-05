@@ -1,6 +1,5 @@
 from scipy.io import wavfile
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def create_spliced_edit(sample_rate, data):
