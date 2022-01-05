@@ -23,6 +23,10 @@ def plot_wav_graph(sample_rate, length_in_seconds, num_samples, data):
 
 if __name__ == "__main__":
     sample_rate, data = wavfile.read("sw440Hz.wav")
+
+    # Write a new file using the same rate and the numpy data.
+    wavfile.write("ch_3_output.wav", sample_rate, data)
+
     # sw440Hz.wav is a single channel input file,
     # so the resulting numpy array is one-dimensional,
     # and data.shape has a single value at index 0
