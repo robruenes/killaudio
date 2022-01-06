@@ -1,4 +1,4 @@
-# Chapter 3
+# Chapter 3: Basics of Audio in Python
 
 Below is a quick explanation of the files in this directory.
 
